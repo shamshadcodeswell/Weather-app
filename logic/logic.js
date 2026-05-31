@@ -28,7 +28,7 @@ const search = function(input){
                 localStorage.setItem('lon', data.results[i].longitude);
                 localStorage.setItem('name', data.results[i].name);
                 console.log(coordinates);
-                window.location.href = 'page2.html'
+                window.location.href = 'searchResult.html'
                 
             })
             

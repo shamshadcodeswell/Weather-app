@@ -54,5 +54,5 @@ fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&c
     )
 
 document.querySelector('button').addEventListener('click',()=>{
-    window.location.href = 'page1.html'
+    window.location.href = 'home.html'
 })
