@@ -1,0 +1,103 @@
+body
+{
+    background: linear-gradient(to right, #eff6ff, #e0e7ff);
+    font-family: 'Nunito'
+}
+h1{
+    text-align:center ;
+    font-family: Outfit;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Outfit;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+}
+/* .searchWrap{
+    text-align: center;
+    
+}
+input{
+    inline-size: 270px;
+    block-size: 25px;
+} */
+/* button{
+    block-size: 31px;
+} */
+ .searchWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 2rem auto;
+}
+
+#searchBar {
+    padding: 10px 16px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    width: 300px;
+    outline: none;
+}
+
+#searchBar:focus {
+    border-color: #1a73e8;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1a73e8;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1558b0;
+}
+.suggestion
+{
+    background-color: white;
+    margin-block: 3px;
+    padding-block-end: 10px;
+    max-inline-size:320px ;
+    margin-inline : auto;
+    text-align: center;
+}
+.parentInfo
+{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    max-inline-size: 550px;
+    margin-inline : auto;
+    border-radius: 15px;
+    
+}
+
+#navigation {
+    text-align: center;
+    margin-top: 12rem;
+}
+#goBack {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1a73e8;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#goBack:hover {
+    background-color: #1558b0;
+}
